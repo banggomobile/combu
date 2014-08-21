@@ -1,0 +1,50 @@
+<ion-view title="Estatisticas">
+  <ion-content class="has-footer">
+    <div class="list">
+    	<div class="row">
+    		<h4><i class="icon ion-speedometer"></i> Volume do tanque</h4>
+  		</div>
+  		<div class="range range-positive">
+    		0 L
+    		<input type="range" name="volume" min="0" max="100" value="0">
+    		150 L
+  		</div>
+
+  		<div class="item item-toggle">
+     		Completar o tanque?
+     		<label class="toggle toggle-positive">
+       			<input type="checkbox">
+       			<div class="track">
+         			<div class="handle"></div>
+       			</div>
+     		</label>
+  		</div>
+
+  		<div class="item item-stable item-text-wrap">
+  			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  		</div>
+
+  		<label class="item item-input item-select">
+    		<div class="input-label">
+      			<i class="icon ion-flame"></i> Combustível
+    		</div>
+    		<select>
+      			<option>Etanol</option>
+      			<option selected>Gasolina</option>
+    		</select>
+  		</label>
+
+  		<div class="list">
+  			<label class="item item-input item-floating-label">
+    			<span class="input-label"><i class="icon ion-navigate"></i> Percurso disponível estimado</span>
+    			<input type="text" placeholder="Percurso disponível estimado">
+  			</label>
+  			<label class="item item-input item-floating-label">
+    			<span class="input-label"><i class="icon ion-social-usd"></i> Preço</span>
+    			<input type="text" placeholder="Preço">
+  			</label>
+		</div>
+
+	</div>
+  </ion-content>
+</ion-view>
