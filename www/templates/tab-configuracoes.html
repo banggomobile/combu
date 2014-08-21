@@ -1,5 +1,9 @@
-<ion-view title="Configurações">
-  <ion-content class="has-header padding">
-    <h1>Configurações</h1>
+<ion-view title="FlexMath">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/configuracoes/{{friend.id}}">
+        {{friend.name}}
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
